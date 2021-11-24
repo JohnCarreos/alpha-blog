@@ -1,45 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/d81a1185be.js"
-      crossorigin="anonymous"
-    ></script>
-    <%= stylesheet_link_tag "home.css" %>
-    <title>Alpha Blog</title>
-  </head>
-  <body>
-    <header>
-      <p class="logo-name">JOHN CARREOS</p>
-      <nav>
-        <ul class="nav-links">
-          <li><%= link_to "About", about_path %></li>
-          <li><%= link_to "Alpha Blog", articles_path %></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h1>Alpha Blog</h1>
-        <p>My first ruby on rails app</p>
-      </section>
-      <section>
-        <h2>Sample Article One</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ut
-          nostrum ab officiis nemo explicabo, alias recusandae numquam quam,
-          maxime qui sapiente voluptatum cupiditate fuga atque, rem eveniet. In,
-          enim.
-        </p>
-      </section>
-    </main>
-    <footer>
-      <i class="fab fa-github"></i>
-      <i class="fab fa-linkedin"></i>
-      <i class="fab fa-facebook"></i>
-    </footer>
-  </body>
-</html>
+<div class="center jumbotron">
+  <h1>ALPHA BLOG</h1>
+  <%= link_to "Sign up now", "#", class: "btn btn-danger btn-lg btn-xlarge" %>
+</div>
+
